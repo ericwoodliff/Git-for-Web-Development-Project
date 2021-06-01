@@ -86,8 +86,13 @@ base repository - master - to your name, create the pull request.
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+    Block elements will cause a line break, inline elements will not. 
     2. What happens when an element is positioned absolutely? 
+    It means that the element is essentially detached from the rest of the document and that it
+    won't impede on with the layout of the other elements. 
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    You adjust the height, width, margin, border, and padding of the element. 
+    4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    form, headers, and section elements display block by default; the button and test elements display inline by default, and img is displayed inline-block by default. 
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
-
+    The box model concerns the dimensions of block-level elements by width, height, margin, border, and padding. By using the box-sizing property, you can fix the width problem. 
